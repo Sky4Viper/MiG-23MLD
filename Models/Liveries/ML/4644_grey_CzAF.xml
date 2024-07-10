@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PropertyList>
+    <sim>
+        <model>
+            <livery>
+                <name type="string">CzAF 4644 grey</name>
+                <texture>Liveries/ML/4644_grey_CzAF.png</texture>
+            </livery>
+            <pilotsuit>
+                <name type="string">GreenFlightsuit</name>
+                <texture>Liveries/Pilot/pilot_green.png</texture>
+            </pilotsuit>
+            <droptank>
+                <name type="string">WhiteTank</name>
+                <texture>Liveries/Droptank/Droptank3.png</texture>
+            </droptank>
+        </model>
+    </sim>
+</PropertyList>

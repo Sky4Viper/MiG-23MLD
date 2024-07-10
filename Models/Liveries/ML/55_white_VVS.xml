@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PropertyList>
+    <sim>
+        <model>
+            <livery>
+                <name type="string">VVS 55 White (Afghanistan)</name>
+                <texture>Liveries/ML/55_white_VVS.png</texture>
+            </livery>
+            <pilotsuit>
+                <name type="string">CamoFlightsuit</name>
+                <texture>Liveries/Pilot/pilot_camo.png</texture>
+            </pilotsuit>
+            <droptank>
+                <name type="string">CamoTank</name>
+                <texture>Liveries/Droptank/Droptank2.png</texture>
+            </droptank>
+        </model>
+    </sim>
+</PropertyList>

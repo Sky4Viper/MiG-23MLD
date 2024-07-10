@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PropertyList>
+    <sim>
+        <model>
+            <livery>
+                <name type="string">VVS 12 Red</name>
+                <texture>Liveries/ML/12_red_VVS.png</texture>
+            </livery>
+            <pilotsuit>
+                <name type="string">BlueFlightsuit</name>
+                <texture>Liveries/Pilot/pilot_blue.png</texture>
+            </pilotsuit>
+            <droptank>
+                <name type="string">WhiteTank</name>
+                <texture>Liveries/Droptank/Droptank3.png</texture>
+            </droptank>
+        </model>
+    </sim>
+</PropertyList>

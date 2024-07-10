@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PropertyList>
+    <sim>
+        <model>
+            <livery>
+                <name type="string">KPAAF 71 red</name>
+                <texture>Liveries/ML/71_red_KPAAF.png</texture>
+            </livery>
+            <pilotsuit>
+                <name type="string">RedHelmet</name>
+                <texture>Liveries/Pilot/pilot_red.png</texture>
+            </pilotsuit>
+            <droptank>
+                <name type="string">GreyTank</name>
+                <texture>Liveries/Droptank/Droptank4.png</texture>
+            </droptank>
+        </model>
+    </sim>
+</PropertyList>
