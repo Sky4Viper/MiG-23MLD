@@ -134,7 +134,8 @@
         <object-name>canopyE</object-name>
         <property-base>sim/model/livery/</property-base>
         <texture-prop>texture</texture-prop>
-        <texture>fuzcamo_afg.png</texture>
+        <!-- <texture>fuzcamo_afg.png</texture> -->
+        <texture>Aircraft/MiG-23MLD/Models/55_white_VVS.png</texture>
     </animation>
 
     <!--<model>
@@ -180,7 +181,15 @@
         <object-name>pilot_vest</object-name>
         <property-base>sim/model/pilotsuit/</property-base>
         <texture-prop>texture</texture-prop>
-      	<texture>Pilot/Liveries/pilot_camo.png</texture>
+      	<texture>Liveries/Pilot/pilot_blue.png</texture>
+    </animation>
+
+    <animation>
+        <type>material</type>
+        <object-name>Droptank</object-name>
+        <property-base>sim/model/droptank/</property-base>
+        <texture-prop>texture</texture-prop>
+      	<texture>Liveries/Droptank/Droptank1.png</texture>
     </animation>
 
 
