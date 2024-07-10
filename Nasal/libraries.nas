@@ -4,11 +4,11 @@ var Sweep=0;
 var SweepIndicator=0;
 
 if(getprop("/sim/variant-id")==1) {
-    aircraft.livery.init("Aircraft/MiG-23MLD/Models/LiveriesMLD/");
+    aircraft.livery.init("Aircraft/MiG-23MLD/Models/Liveries/MLD/");
     SweepAngles=[16,33,45,72]; #16=fully forward
 }
 else {
-    aircraft.livery.init("Aircraft/MiG-23MLD/Models/LiveriesML/");
+    aircraft.livery.init("Aircraft/MiG-23MLD/Models/Liveries/ML/");
     SweepAngles=[16,45,72]; #16=fully forward
 }
 
