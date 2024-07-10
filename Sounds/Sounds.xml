@@ -414,7 +414,7 @@
         </gears>
         <gears>
             <name>squeal</name>
-            <path>Sounds/BaBoOn-mirageIV-Tire-Squeal.wav</path>
+            <path>Sounds/misc/BaBoOn-mirageIV-Tire-Squeal.wav</path>
             <type>avionics</type>
             <condition>
                 <or>
