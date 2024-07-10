@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PropertyList>
+    <sim>
+        <model>
+            <livery>
+                <name type="string">SyAAF 2786</name>
+                <texture>Liveries/MLD/2786_SyAAF.png</texture>
+            </livery>
+            <pilotsuit>
+                <name type="string">GreenFlightsuit</name>
+                <texture>Liveries/Pilot/pilot_green.png</texture>
+            </pilotsuit>
+            <droptank>
+                <name type="string">GreyTank</name>
+                <texture>Liveries/Droptank/Droptank1.png</texture>
+            </droptank>
+        </model>
+    </sim>
+    <fdm>
+        <jsbsim>
+            <fcs>
+                <dogtooth type="bool">1</dogtooth>
+                <vortex-generator type="bool">0</vortex-generator>
+                <cfd type="bool">1</cfd>
+            </fcs>
+        </jsbsim>
+    </fdm>
+</PropertyList>
