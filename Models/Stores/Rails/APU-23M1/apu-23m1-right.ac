@@ -1,5 +1,5 @@
 AC3Db
-MATERIAL "apu-23m1.004" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 0.100 0.100 0.100  shi 64 trans 0.000
+MATERIAL "apu-23m1.004" rgb 1.000 0.960 0.920  amb 1.000 0.960 0.920  emis 0.000 0.000 0.000  spec 0.600 0.600 0.600  shi 8 trans 0.000
 OBJECT world
 name "Blender_exporter_v3.3__apu-23m1.ac"
 kids 1
