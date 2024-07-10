@@ -98,7 +98,7 @@
             <pref-width>225</pref-width><pref-height>23</pref-height>
             <row>0</row>
             <col>2</col>
-            <legend>A/A Default</legend>
+            <legend>A/A Default (R-24 + R-60)</legend>
             <binding>
                 <command>nasal</command>
                 <script>pylons.aa_default();</script>
@@ -109,7 +109,7 @@
             <pref-width>225</pref-width><pref-height>23</pref-height>
             <row>0</row>
             <col>4</col>
-            <legend>A/A Short Range</legend>
+            <legend>A/A Short Range (R-3)</legend>
             <binding>
                 <command>nasal</command>
                 <script>pylons.aa_r3();</script>
@@ -126,7 +126,7 @@
             <pref-width>225</pref-width><pref-height>23</pref-height>
             <row>2</row>
             <col>0</col>
-            <legend>A/G Rockets Light</legend>
+            <legend>A/G Rockets Light (S-5)</legend>
             <binding>
                 <command>nasal</command>
                 <script>pylons.ag_s5();</script>
@@ -137,7 +137,7 @@
             <pref-width>225</pref-width><pref-height>23</pref-height>
             <row>2</row>
             <col>2</col>
-            <legend>A/G Rockets Heavy</legend>
+            <legend>A/G Rockets Heavy (S-24)</legend>
             <binding>
                 <command>nasal</command>
                 <script>pylons.ag_s24();</script>
@@ -148,7 +148,7 @@
             <pref-width>225</pref-width><pref-height>23</pref-height>
             <row>2</row>
             <col>4</col>
-            <legend>A/G Missile Remote</legend>
+            <legend>A/G Missile (Kh-23)</legend>
             <binding>
                 <command>nasal</command>
                 <script>pylons.ag_kh23();</script>
@@ -160,7 +160,7 @@
             <pref-width>225</pref-width><pref-height>23</pref-height>
             <row>3</row>
             <col>0</col>
-            <legend>A/G Bombs</legend>
+            <legend>A/G Bombs (FAB-500)</legend>
             <binding>
                 <command>nasal</command>
                 <script>pylons.ag_f500();</script>
@@ -171,7 +171,7 @@
             <pref-width>225</pref-width><pref-height>23</pref-height>
             <row>3</row>
             <col>2</col>
-            <legend>A/G Cluster Bombs</legend>
+            <legend>A/G Cluster Bombs (RBK-500)</legend>
             <binding>
                 <command>nasal</command>
                 <script>pylons.ag_r500();</script>
@@ -182,7 +182,7 @@
             <pref-width>225</pref-width><pref-height>23</pref-height>
             <row>3</row>
             <col>4</col>
-            <legend>A/G Guns</legend>
+            <legend>A/G Guns (UPK-23)</legend>
             <binding>
                 <command>nasal</command>
                 <script>pylons.ag_upk23();</script>
@@ -250,6 +250,24 @@
             <binding>
                 <command>property-toggle</command>
                 <property>fdm/jsbsim/fcs/dogtooth</property>
+            </binding>
+        </checkbox>
+        
+        <empty>
+            <stretch>1</stretch>
+        </empty>
+
+        <checkbox>
+            <label>Droptank</label>
+            <property>sim/model/MiG-23MLD/stores</property>
+            <live>true</live>
+            <!-- <binding>
+                <command>property-toggle</command>
+                <property>fdm/jsbsim/fcs/dogtooth</property>
+            </binding> -->
+            <binding>
+                <command>nasal</command>
+                <script>pylons.dt_ptb800();</script>
             </binding>
         </checkbox>
         
