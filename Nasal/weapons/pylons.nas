@@ -249,3 +249,15 @@ var ag_upk23 = func {
         screen.log.write(msgA, 0.5, 0.5, 1);
     }
 }
+
+var dt_ptb800 = func {
+    if(!getprop("payload/armament/msg") or getprop("gear/gear[0]/wow")) {
+        if(getprop("sim/model/MiG-23MLD/stores")) {
+            pylon4.loadSet(pylonSets.empty);
+        } else {
+            pylon4.loadSet(pylonSets.fueltank1);
+        }
+    } else {
+        screen.log.write(msgA, 0.5, 0.5, 1);
+    }
+}
