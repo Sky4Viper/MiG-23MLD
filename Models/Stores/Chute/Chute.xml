@@ -2,6 +2,11 @@
 <PropertyList>
     <path>TPK-27.ac</path>
     <animation>
+     <name>chute</name>
+     <object-name>Parachute</object-name>
+     <object-name>tros</object-name>
+    </animation>
+    <animation>
         <type>scale</type>
         <object-name>chute</object-name>
         <property>sim/multiplay/generic/float[6]</property>
@@ -12,10 +17,33 @@
         <y-factor>10</y-factor>
         <z-factor>10</z-factor>
     </animation>
+    <!-- <animation>
+        <type>scale</type>
+        <object-name>chute</object-name>
+        <property>sim/multiplay/generic/float[6]</property>
+        <condition>
+         <greater-than>
+          <property>velocities/groundspeed-kt</property>
+          <value>20</value>
+         </greater-than>
+        </condition>
+        <x-min>1</x-min>
+        <y-min>1</y-min>
+        <z-min>1</z-min>
+        <x-factor>1</x-factor>
+        <y-factor>1</y-factor>
+        <z-factor>10</z-factor>
+    </animation> -->
     <animation>
         <type>rotate</type>
         <object-name>chute</object-name>
         <property>orientation/pitch-deg</property>
+        <condition>
+         <greater-than>
+          <property>velocities/groundspeed-kt</property>
+          <value>2</value>
+         </greater-than>
+        </condition>
         <factor>-0.10</factor>
             <center>
             <x-m>0</x-m>
@@ -28,4 +56,22 @@
             <z>0</z>
         </axis>	
     </animation>
+    <!-- <animation>
+     <type>rotate</type>
+     <object-name>Parachute</object-name>
+     <property>orientation/alpha-deg</property>
+     <condition>
+      <greater-than>
+        <property>velocities/groundspeed-kt</property>
+        <value>2</value>
+      </greater-than>
+     </condition>
+     <offset-deg>0</offset-deg>
+     <factor>0.01</factor>
+     <axis>
+      <x> 0</x>
+      <y>-1</y>
+      <z> 0</z>
+     </axis>
+    </animation> -->
 </PropertyList>

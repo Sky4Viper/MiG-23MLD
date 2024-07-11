@@ -403,7 +403,7 @@
         <name>FAB-500 Bomb 2</name>
         <path>Aircraft/MiG-23MLD/Models/Stores/FAB-500/FAB-500.ac</path>
         <offsets>
-            <x-m>-1.390</x-m>
+            <x-m>-1.590</x-m>
             <y-m>-0.446</y-m>
             <z-m>-1.188</z-m>
             <pitch-deg>-2</pitch-deg>
@@ -608,7 +608,7 @@
         <name>FAB-500 Bomb 3</name>
         <path>Aircraft/MiG-23MLD/Models/Stores/FAB-500/FAB-500.ac</path>
         <offsets>
-            <x-m>-1.390</x-m>
+            <x-m>-1.590</x-m>
             <y-m> 0.446</y-m>
             <z-m>-1.188</z-m>
             <pitch-deg>-2</pitch-deg>
